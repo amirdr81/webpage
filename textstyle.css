@@ -1,0 +1,263 @@
+/*background image of body*/
+body
+{
+    text-align: center;
+    color: rgb(233, 223, 223);
+    background-image:url("https://dophostudio.files.wordpress.com/2014/10/wooden-background-texture-pattern-images-for-website-hd-template-psd-free-download.jpg")
+}
+/*marquee*/
+marquee
+{
+    color: rgb(81, 255, 0);
+}
+/*form*/
+form
+{
+    text-align: center;
+    color: rgb(81, 255, 0);
+    font-size: 16pt;
+}
+input[type=text]
+{
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 20pt;
+    box-sizing: border-box;
+    color: black;
+    
+}
+input[type=number]
+{
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 20pt;
+    box-sizing: border-box;
+    color: black;
+    
+}
+input[type=search]
+{
+    width: 20%;
+    padding: 30px 20px;
+    margin: 8px 0;
+    border-radius: 20pt;
+    box-sizing: border-box;
+    color: black;
+    
+}
+/*titles*/
+p
+{
+    font-size: 17px;
+    color: rgb(81, 255, 0);
+    font-weight: 800;
+    text-align: right;
+    position:relative;
+    left:-260px; 
+    top:2px;
+}
+/*footer*/
+footer
+{
+    position:fixed;
+    height: 50px;
+}
+.footer
+{
+    border-top: 4px solid black;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top-left-radius: 10pt;
+    border-top-right-radius: 10pt;
+    background-color: seashell;
+    color: rgb(81, 255, 0);
+    text-align: center;
+}
+.footer a
+{
+    float:right;
+    color:rgb(44, 160, 44);
+    text-align: center;
+    padding: 10px 16px;
+    font-size: 20px;
+    
+}
+
+/*lists*/
+ul
+{
+    text-align: left;
+    font-size: x-large;
+    text-emphasis-color: lawngreen;
+}
+li
+{
+    color: rgb(81, 255, 0);
+}
+a
+{
+    color: rgb(81, 255, 0);
+}
+/*image*/
+img
+{
+    border: 5px solid black;
+}
+/*head*/
+h1
+{
+    color: rgb(81, 255, 0);
+}
+h2
+{
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(81, 255, 0);
+}
+/*line style*/
+hr
+{
+    width: 65%;
+    text-align: right;
+    position: relative;
+    left:0px; 
+    top:2px;
+    border-width: medium;
+    color: rgb(81, 255, 0);
+    border-style: outset;
+
+}
+/*nagivation bar style*/
+.nav
+{
+    background-color:seashell;
+    overflow: hidden;
+    border-radius: 10mm;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    border-right: 3px solid black;
+    border-right: 3px solid black;
+}
+
+.nav a
+{
+    float: right;
+    color:green;
+    text-align: center;
+    padding: 10px 16px;
+    font-size: 15px;
+}
+.nav a:hover 
+{
+    background-color: rgb(23, 173, 3);
+    color: rgb(0, 0, 0);
+}
+
+.nav a.active
+{
+    background-color: rgb(23, 173, 3);
+    color:rgb(0, 0, 0);
+}
+/*charts*/
+.container 
+{
+    
+    border: 3px solid black;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+.sport
+{
+    border: 2px solid black;
+    color: white;
+    text-align: right;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(23, 173, 3);
+}
+.english
+{
+    border: 2px solid black;
+    color: white;
+    text-align: right;
+    width: 60%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(23, 173, 3);
+}
+.english2
+{
+    border: 2px solid black;
+    color: white;
+    text-align: right;
+    width: 70%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(23, 173, 3);
+}
+.english3
+{
+    border: 2px solid black;
+    color: white;
+    text-align: right;
+    width: 50%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(23, 173, 3);
+}
+.c
+{
+    border: 2px solid black;
+    color: white;
+    text-align: right;
+    width: 40%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(23, 173, 3);
+}
+.word
+{
+    border: 2px solid black;
+    color: white;
+    text-align: right;
+    width: 80%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(23, 173, 3);
+}
+.powerpoint
+{
+    border: 2px solid black;
+    color: white;
+    text-align: right;
+    width: 80%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(23, 173, 3);
+}
+.relation
+{
+    border: 2px solid black;
+    color: white;
+    text-align: right;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(23, 173, 3);
+}
+
+button
+{
+    background-color: seashell;
+    width: 10%;
+    border-radius: 20px;
+    border: 3px solid black;
+    color: green;
+    font-size: x-large;
+}

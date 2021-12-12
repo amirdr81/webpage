@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <title>تماس با من </title>
+    <head>
+        <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+        <link rel="stylesheet" type="text/CSS" href="textstyle.css" />
+        <script type="text/javascript">
+            function message()
+            {
+                var answer = confirm("آیا از ارسال خود اطمینان دارید؟");
+                if(answer == true) 
+                {
+                    alert("!پیام شما با موفقیت ثبت شد");
+                }
+                else
+                {
+                    alert("!خطا در فرستادن پیام");
+                }
+            }
+                
+        </script>
+    </head>
+    <body>
+        <b><br></b>
+        <div class="nav">
+            <a href="page1.html"><b>معرفی</b></a>
+            <a href="page2.html"><b>مهارت و توانمندی ها</b></a>
+            <a href="page3.html"><b>افتخارات و دستاورد ها</b></a>
+            <a class="active" href="page4.html"><b>ارتباط با من</b></a>
+        </div>
+        <ul>
+            <li><b><i>Phone: </i></b> +989393368646</li>
+            <li><b><i>Email: </i></b>Amirmohammadd@yahoo.com</li>
+            <li><b><i><a href="https://t.me/AMIMOH3">Telegram</a></i></b></li>
+            <li><b><i><a href="http://linkedin.com/in/amirmohammad-derakhshandeh-11b850199">LinkedIn</a></i></b></li>
+        </ul>
+        <h1>!برای همکاری با من، لطفا فرم زیر را تکمیل کنید</h1>
+        <form>
+            <b dir="rtl">:نام</b> <input type="text"><br>
+            <b dir="rtl">:نام خانوادگی</b> <input type="text"><br>
+            <b dir="rtl">:سن</b> <input type="number"><br>
+            <b dir="rtl">:ایمیل</b> <input type="text"><br>
+            <b dir="rtl">:محتوای پیام</b> <input type="search"><br><br><br>
+            <button onclick="message()"><b>تایید</b></button><br>
+            <h1 id="demo"></h1><br>
+        </form>
+        <footer class="footer">
+            <a><b><i>amirmohammadd@yahoo.com :ایمیل</i></b></a>
+            <a href="https://github.com/amirdr81"><b><i>github</i></b></a>
+            <a href="https://stackoverflow.com/users/story/17459207"><b><i>stackoverflow</i></b></a>
+        </footer>
+    </body>
+</html>
